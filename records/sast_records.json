@@ -1,0 +1,3310 @@
+{
+  "next_filing": 2,
+  "templates": [
+    {
+      "id": 1,
+      "title": "SAST Daily Patrol Log",
+      "record_type": "form",
+      "doc_no": "1ST-F-101",
+      "active": true
+    },
+    {
+      "id": 1790233382665,
+      "title": "Society Fund Reimbursement Form",
+      "record_type": "form",
+      "doc_no": "1ST-F-102",
+      "fields": [
+        {
+          "section": "Member Information",
+          "label": "Name",
+          "key": "name",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Member Information",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Member Information",
+          "label": "Callsign / Unit",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Member Information",
+          "label": "Division",
+          "key": "division",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Member Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Purchase Information",
+          "label": "Item(s) Purchased",
+          "key": "items_purchased",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Purchase Information",
+          "label": "Reason for Purchase",
+          "key": "reason",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Purchase Information",
+          "label": "Department Purpose",
+          "key": "department_purpose",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Purchase Information",
+          "label": "Date Purchased",
+          "key": "date_purchased",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Purchase Information",
+          "label": "Total Amount",
+          "key": "total_amount",
+          "type": "money",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Purchase Information",
+          "label": "Payment Method",
+          "key": "payment_method",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Purchase Information",
+          "label": "Store / Vendor",
+          "key": "vendor",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Proof of Purchase",
+          "label": "Receipt Attached",
+          "key": "receipt_attached",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Proof of Purchase",
+          "label": "Receipt / Transaction Number",
+          "key": "receipt_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reimbursement",
+          "label": "Amount Requested",
+          "key": "amount_requested",
+          "type": "money",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reimbursement",
+          "label": "Requested Payment Method",
+          "key": "requested_payment_method",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reimbursement",
+          "label": "Additional Notes",
+          "key": "additional_notes",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Approval",
+          "label": "Supervisor Name",
+          "key": "supervisor_name",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Approval",
+          "label": "Supervisor Rank",
+          "key": "supervisor_rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Approval",
+          "label": "Approved",
+          "key": "approved",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Approval",
+          "label": "Supervisor Signature",
+          "key": "supervisor_signature",
+          "type": "signature",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Approval",
+          "label": "Date",
+          "key": "approval_date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Society Fund Treasurer",
+          "label": "Reviewed By",
+          "key": "reviewed_by",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Society Fund Treasurer",
+          "label": "Amount Approved",
+          "key": "amount_approved",
+          "type": "money",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Society Fund Treasurer",
+          "label": "Payment Issued",
+          "key": "payment_issued",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Society Fund Treasurer",
+          "label": "Date Paid",
+          "key": "date_paid",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Society Fund Treasurer",
+          "label": "Signature",
+          "key": "treasurer_signature",
+          "type": "signature",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.581Z"
+    },
+    {
+      "id": 1790233333297,
+      "title": "Incident Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-101",
+      "fields": [
+        {
+          "section": "Incident Information",
+          "label": "Report Number",
+          "key": "report_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Time",
+          "key": "time",
+          "type": "time",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Postal",
+          "key": "postal",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Incident Type",
+          "key": "incident_type",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Call / Dispatch Number",
+          "key": "dispatch_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reporting Trooper",
+          "label": "Name",
+          "key": "name",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reporting Trooper",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reporting Trooper",
+          "label": "Callsign",
+          "key": "callsign",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reporting Trooper",
+          "label": "Division",
+          "key": "division",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Involved Persons",
+          "label": "Subject 1 Name",
+          "key": "subject1_name",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Involved Persons",
+          "label": "DOB / Age",
+          "key": "subject1_age",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Involved Persons",
+          "label": "Description",
+          "key": "subject1_description",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Involved Persons",
+          "label": "Vehicle",
+          "key": "subject1_vehicle",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Involved Persons",
+          "label": "Plate",
+          "key": "subject1_plate",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Involved Persons",
+          "label": "Additional Subjects",
+          "key": "additional_subjects",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Involved Persons",
+          "label": "Role in Incident",
+          "key": "additional_role",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Assisting Personnel",
+          "label": "Trooper",
+          "key": "assisting_trooper",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Assisting Personnel",
+          "label": "Agency",
+          "key": "assisting_agency",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Assisting Personnel",
+          "label": "Unit",
+          "key": "assisting_unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Narrative",
+          "label": "Narrative",
+          "key": "narrative",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Body Camera",
+          "key": "body_camera",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Dash Camera",
+          "key": "dash_camera",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Photographs",
+          "key": "photographs",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Video / CCTV",
+          "key": "video_cctv",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Other Evidence",
+          "key": "other_evidence",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Disposition",
+          "label": "Arrest Made",
+          "key": "arrest_made",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Disposition",
+          "label": "Citation Issued",
+          "key": "citation_issued",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Disposition",
+          "label": "Subject Released",
+          "key": "subject_released",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Disposition",
+          "label": "EMS Required",
+          "key": "ems_required",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Disposition",
+          "label": "Other",
+          "key": "disposition_other",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Supervisor",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Rank",
+          "key": "supervisor_rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Reviewed",
+          "key": "reviewed",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Comments",
+          "key": "comments",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233317489,
+      "title": "Taser Deployment Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-102",
+      "fields": [
+        {
+          "section": "Deployment Information",
+          "label": "Report Number",
+          "key": "report_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment Information",
+          "label": "Time",
+          "key": "time",
+          "type": "time",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment Information",
+          "label": "Postal",
+          "key": "postal",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment Information",
+          "label": "Trooper",
+          "key": "trooper",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment Information",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment Information",
+          "label": "Unit",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment Information",
+          "label": "Taser Serial Number",
+          "key": "taser_serial",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject",
+          "label": "Name",
+          "key": "subject_name",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject",
+          "label": "Description",
+          "key": "description",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject",
+          "label": "Reason for Contact",
+          "key": "reason_contact",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Reason Taser Was Deployed",
+          "key": "reason_deployed",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Commands Given Before Deployment",
+          "key": "commands_before",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Subject's Actions",
+          "key": "subject_actions",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Threat Level",
+          "key": "threat_level",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment",
+          "label": "Number of Taser Cycles",
+          "key": "cycles",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment",
+          "label": "Duration",
+          "key": "duration",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment",
+          "label": "Cartridge Used",
+          "key": "cartridge_used",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment",
+          "label": "Effective",
+          "key": "effective",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Deployment",
+          "label": "Probe Contact",
+          "key": "probe_contact",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Deployment",
+          "label": "Drive Stun",
+          "key": "drive_stun",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "After Deployment",
+          "label": "Subject Restrained",
+          "key": "restrained",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "After Deployment",
+          "label": "EMS Requested",
+          "key": "ems_requested",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "After Deployment",
+          "label": "Medical Evaluation",
+          "key": "medical_evaluation",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "After Deployment",
+          "label": "Probes Removed By",
+          "key": "probes_removed_by",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "After Deployment",
+          "label": "Evidence Collected",
+          "key": "evidence_collected",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Narrative",
+          "label": "Narrative",
+          "key": "narrative",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Supervisor",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Rank",
+          "key": "supervisor_rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Reviewed",
+          "key": "reviewed",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Findings / Comments",
+          "key": "findings",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233347606,
+      "title": "Use of Force Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-103",
+      "fields": [
+        {
+          "section": "Incident Information",
+          "label": "Report Number",
+          "key": "report_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Time",
+          "key": "time",
+          "type": "time",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Postal",
+          "key": "postal",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Reporting Trooper",
+          "key": "trooper",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Unit",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Name",
+          "key": "subject_name",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Description",
+          "key": "description",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Vehicle",
+          "key": "vehicle",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Plate",
+          "key": "plate",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Type of Force Used",
+          "label": "Force Types",
+          "key": "force_types",
+          "type": "multi",
+          "options": [
+            "Verbal Commands",
+            "Physical Control",
+            "Handcuffs",
+            "Taser",
+            "Baton",
+            "Less-Lethal",
+            "Firearm Displayed",
+            "Firearm Discharged",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "section": "Reason for Force",
+          "label": "Subject's Actions",
+          "key": "subject_actions",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reason for Force",
+          "label": "Threat Presented",
+          "key": "threat_presented",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reason for Force",
+          "label": "Commands Given",
+          "key": "commands_given",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Reason for Force",
+          "label": "De-escalation Attempted",
+          "key": "deescalation",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Force Used",
+          "label": "Describe exactly what force was used and why",
+          "key": "force_description",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Trooper Injured",
+          "key": "trooper_injured",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Subject Injured",
+          "key": "subject_injured",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Civilian Injured",
+          "key": "civilian_injured",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "EMS Called",
+          "key": "ems_called",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "BWC",
+          "key": "bwc",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Dashcam",
+          "key": "dashcam",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Photos",
+          "key": "photos",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Witnesses",
+          "key": "witnesses",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Other Evidence",
+          "key": "other_evidence",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Supervisor",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Rank",
+          "key": "supervisor_rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Review Date",
+          "key": "review_date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Findings",
+          "key": "findings",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Corrective Action Required",
+          "key": "corrective_action",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233379522,
+      "title": "Firearm Discharge Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-104",
+      "fields": [
+        {
+          "section": "Incident Information",
+          "label": "Report Number",
+          "key": "report_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Time",
+          "key": "time",
+          "type": "time",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Postal",
+          "key": "postal",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Trooper",
+          "key": "trooper",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Unit",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Firearm Information",
+          "label": "Firearm Type",
+          "key": "firearm_type",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Firearm Information",
+          "label": "Make / Model",
+          "key": "make_model",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Firearm Information",
+          "label": "Serial Number",
+          "key": "serial_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Firearm Information",
+          "label": "Ammunition Type",
+          "key": "ammo_type",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Firearm Information",
+          "label": "Rounds Loaded",
+          "key": "rounds_loaded",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Firearm Information",
+          "label": "Rounds Fired",
+          "key": "rounds_fired",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Reason Firearm Was Drawn",
+          "key": "reason_drawn",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Reason Firearm Was Discharged",
+          "key": "reason_discharged",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Threat Presented",
+          "key": "threat_presented",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Commands Given",
+          "key": "commands_given",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "De-escalation Attempted",
+          "key": "deescalation",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Shots Fired",
+          "label": "Number of Shots",
+          "key": "shots",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Shots Fired",
+          "label": "Approximate Distance",
+          "key": "distance",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Shots Fired",
+          "label": "Direction of Fire",
+          "key": "direction",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Shots Fired",
+          "label": "Target",
+          "key": "target",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Shots Fired",
+          "label": "Was Anyone Struck?",
+          "key": "anyone_struck",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Suspect",
+          "key": "suspect_injury",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Trooper",
+          "key": "trooper_injury",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Civilian",
+          "key": "civilian_injury",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Fatality",
+          "key": "fatality",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "EMS Responded",
+          "key": "ems_responded",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Scene / Evidence",
+          "label": "Weapon Recovered",
+          "key": "weapon_recovered",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Scene / Evidence",
+          "label": "Shell Casings Recovered",
+          "key": "casings",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Scene / Evidence",
+          "label": "BWC Available",
+          "key": "bwc_available",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Scene / Evidence",
+          "label": "Photographs Taken",
+          "key": "photos_taken",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Scene / Evidence",
+          "label": "Witnesses",
+          "key": "witnesses",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Narrative",
+          "label": "Narrative",
+          "key": "narrative",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Supervisor",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Command Staff Notified",
+          "key": "command_notified",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Weapon Secured",
+          "key": "weapon_secured",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Firearm Placed Out of Service",
+          "key": "out_of_service",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Review Complete",
+          "key": "review_complete",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233317905,
+      "title": "K-9 Subdivision Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-105",
+      "fields": [
+        {
+          "section": "K-9 Information",
+          "label": "Handler",
+          "key": "handler",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "K-9 Information",
+          "label": "K-9 Name",
+          "key": "k9_name",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "K-9 Information",
+          "label": "K-9 Number",
+          "key": "k9_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "K-9 Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "K-9 Information",
+          "label": "Time",
+          "key": "time",
+          "type": "time",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "K-9 Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "K-9 Information",
+          "label": "Call Type",
+          "key": "call_type",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "K-9 Activity",
+          "label": "Activity",
+          "key": "activity",
+          "type": "multi",
+          "options": [
+            "Tracking",
+            "Article Search",
+            "Narcotics Detection",
+            "Vehicle Search",
+            "Building Search",
+            "Suspect Search",
+            "Apprehension",
+            "Demonstration",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "section": "Deployment",
+          "label": "Deployment Reason",
+          "key": "deployment_reason",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Deployment",
+          "label": "Results",
+          "key": "results",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence Located",
+          "label": "Item",
+          "key": "item",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence Located",
+          "label": "Location Found",
+          "key": "location_found",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence Located",
+          "label": "Evidence Number",
+          "key": "evidence_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "K-9",
+          "key": "k9_injury",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Handler",
+          "key": "handler_injury",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Injuries",
+          "label": "Subject",
+          "key": "subject_injury",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Additional Information",
+          "label": "Additional Information",
+          "key": "additional",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Supervisor",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Comments",
+          "key": "comments",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233367232,
+      "title": "SWAT Subdivision Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-106",
+      "fields": [
+        {
+          "section": "Operation Information",
+          "label": "Operation Number",
+          "key": "operation_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Operation Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Operation Information",
+          "label": "Time",
+          "key": "time",
+          "type": "time",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Operation Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Operation Information",
+          "label": "Postal",
+          "key": "postal",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Operation Information",
+          "label": "Operation Commander",
+          "key": "commander",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Mission Type",
+          "label": "Mission Type",
+          "key": "mission_type",
+          "type": "multi",
+          "options": [
+            "High-Risk Warrant",
+            "Hostage Situation",
+            "Barricaded Subject",
+            "Armed Subject",
+            "High-Risk Arrest",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "section": "SWAT Personnel",
+          "label": "Team Leader",
+          "key": "team_leader",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "SWAT Personnel",
+          "label": "Operators",
+          "key": "operators",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "SWAT Personnel",
+          "label": "Negotiator",
+          "key": "negotiator",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "SWAT Personnel",
+          "label": "Medic",
+          "key": "medic",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "SWAT Personnel",
+          "label": "K-9",
+          "key": "k9",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "SWAT Personnel",
+          "label": "Supporting Agencies",
+          "key": "supporting_agencies",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Operation Summary",
+          "label": "Summary",
+          "key": "summary",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Name",
+          "key": "subject_name",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Known Weapons",
+          "key": "known_weapons",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Charges / Reason for Operation",
+          "key": "charges",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Outcome",
+          "label": "Outcome",
+          "key": "outcome",
+          "type": "multi",
+          "options": [
+            "Arrest",
+            "Surrender",
+            "Medical Transport",
+            "Escape",
+            "Fatality",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "section": "Force Used",
+          "label": "Taser",
+          "key": "taser",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Force Used",
+          "label": "Less-Lethal",
+          "key": "less_lethal",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Force Used",
+          "label": "Firearm Discharge",
+          "key": "firearm_discharge",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Force Used",
+          "label": "Other",
+          "key": "force_other",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence",
+          "key": "evidence",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Command Review",
+          "label": "Commander",
+          "key": "review_commander",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Command Review",
+          "label": "Supervisor",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Command Review",
+          "label": "Final Disposition",
+          "key": "final_disposition",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233352341,
+      "title": "NARCOTICS Subdivision Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-107",
+      "fields": [
+        {
+          "section": "Case Information",
+          "label": "Case Number",
+          "key": "case_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Case Information",
+          "label": "Investigator",
+          "key": "investigator",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Case Information",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Case Information",
+          "label": "Date Opened",
+          "key": "date_opened",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Case Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Investigation Type",
+          "label": "Investigation Type",
+          "key": "investigation_type",
+          "type": "multi",
+          "options": [
+            "Traffic Stop",
+            "Search Warrant",
+            "Buy/Bust",
+            "Surveillance",
+            "Informant",
+            "Vehicle Search",
+            "Residence Search",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Name",
+          "key": "subject_name",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Vehicle",
+          "key": "vehicle",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Plate",
+          "key": "plate",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Subject Information",
+          "label": "Address",
+          "key": "address",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Suspected Drugs",
+          "label": "Substance",
+          "key": "substance",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Suspected Drugs",
+          "label": "Estimated Quantity",
+          "key": "quantity",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Suspected Drugs",
+          "label": "Packaging",
+          "key": "packaging",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Suspected Drugs",
+          "label": "Suspected Intent",
+          "key": "intent",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Suspected Drugs",
+          "label": "Other Contraband",
+          "key": "contraband",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Investigation Narrative",
+          "label": "Narrative",
+          "key": "narrative",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 1 Description",
+          "key": "evidence1",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 1 Location Found",
+          "key": "evidence1_location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 1 Number",
+          "key": "evidence1_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 2 Description",
+          "key": "evidence2",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 2 Location Found",
+          "key": "evidence2_location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 2 Number",
+          "key": "evidence2_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 3 Description",
+          "key": "evidence3",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 3 Location Found",
+          "key": "evidence3_location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Evidence",
+          "label": "Evidence 3 Number",
+          "key": "evidence3_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Disposition",
+          "label": "Disposition",
+          "key": "disposition",
+          "type": "multi",
+          "options": [
+            "Arrest",
+            "Citation",
+            "Investigation Continuing",
+            "Evidence Submitted",
+            "No Further Action"
+          ],
+          "required": true
+        },
+        {
+          "section": "Supervisor",
+          "label": "Name",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor",
+          "label": "Rank",
+          "key": "supervisor_rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor",
+          "label": "Approval",
+          "key": "approval",
+          "type": "choice",
+          "options": [
+            "Approved",
+            "Not Approved"
+          ],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233305286,
+      "title": "TRAFFIC Division Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-108",
+      "fields": [
+        {
+          "section": "Stop Information",
+          "label": "Report Number",
+          "key": "report_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Stop Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Stop Information",
+          "label": "Time",
+          "key": "time",
+          "type": "time",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Stop Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Stop Information",
+          "label": "Postal",
+          "key": "postal",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Stop Information",
+          "label": "Trooper",
+          "key": "trooper",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Stop Information",
+          "label": "Unit",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Driver",
+          "label": "Name",
+          "key": "driver_name",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Driver",
+          "label": "License Status",
+          "key": "license_status",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Driver",
+          "label": "Vehicle",
+          "key": "vehicle",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Driver",
+          "label": "Plate",
+          "key": "plate",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Driver",
+          "label": "Registration",
+          "key": "registration",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Violation",
+          "label": "Violations",
+          "key": "violations",
+          "type": "multi",
+          "options": [
+            "Speeding",
+            "Reckless Driving",
+            "Careless Driving",
+            "No Insurance",
+            "Suspended/Revoked License",
+            "Expired Registration",
+            "Illegal Modification",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "section": "Details",
+          "label": "Posted Speed",
+          "key": "posted_speed",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Details",
+          "label": "Observed Speed",
+          "key": "observed_speed",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Details",
+          "label": "Method of Speed Detection",
+          "key": "speed_method",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Details",
+          "label": "Other Violations",
+          "key": "other_violations",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Enforcement",
+          "label": "Enforcement Action",
+          "key": "enforcement",
+          "type": "multi",
+          "options": [
+            "Warning",
+            "Citation",
+            "Arrest",
+            "Vehicle Impounded",
+            "Vehicle Released"
+          ],
+          "required": true
+        },
+        {
+          "section": "Narrative",
+          "label": "Narrative",
+          "key": "narrative",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233332331,
+      "title": "MBU Subdivision Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-109",
+      "fields": [
+        {
+          "section": "Patrol Information",
+          "label": "Trooper",
+          "key": "trooper",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Patrol Information",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Patrol Information",
+          "label": "MBU Unit",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Patrol Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Patrol Information",
+          "label": "Shift",
+          "key": "shift",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Patrol Information",
+          "label": "Patrol Area",
+          "key": "patrol_area",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Activity",
+          "label": "Activity",
+          "key": "activity",
+          "type": "multi",
+          "options": [
+            "Traffic Enforcement",
+            "Pursuit Assistance",
+            "Escort",
+            "Traffic Control",
+            "Scene Security",
+            "Criminal Enforcement",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Postal",
+          "key": "postal",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Call Type",
+          "key": "call_type",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Incident Information",
+          "label": "Assisting Units",
+          "key": "assisting_units",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Narrative",
+          "label": "Narrative",
+          "key": "narrative",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Enforcement / Outcome",
+          "label": "Arrests",
+          "key": "arrests",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Enforcement / Outcome",
+          "label": "Citations",
+          "key": "citations",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Enforcement / Outcome",
+          "label": "Vehicle Impounds",
+          "key": "impounds",
+          "type": "number",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Enforcement / Outcome",
+          "label": "Other Actions",
+          "key": "other_actions",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor",
+          "label": "Name",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor",
+          "label": "Rank",
+          "key": "supervisor_rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor",
+          "label": "Review",
+          "key": "review",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233326724,
+      "title": "Equipment Loss Report",
+      "record_type": "report",
+      "doc_no": "1ST-R-110",
+      "fields": [
+        {
+          "section": "Employee Information",
+          "label": "Name",
+          "key": "name",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Employee Information",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Employee Information",
+          "label": "Unit",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Employee Information",
+          "label": "Division",
+          "key": "division",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Employee Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Lost Equipment",
+          "label": "Equipment Items",
+          "key": "equipment_items",
+          "type": "table",
+          "options": [
+            "Item",
+            "Serial/ID",
+            "Quantity",
+            "Last Known Location"
+          ],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Date / Time Last Seen",
+          "key": "last_seen",
+          "type": "datetime",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Location",
+          "key": "location",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Circumstances of Loss",
+          "key": "circumstances",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Was Equipment Stolen?",
+          "key": "stolen",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Circumstances",
+          "label": "Was Equipment Damaged?",
+          "key": "damaged",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Actions Taken",
+          "label": "Search Conducted",
+          "key": "search_conducted",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Actions Taken",
+          "label": "Supervisor Notified",
+          "key": "supervisor_notified",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Actions Taken",
+          "label": "Evidence / Report Number",
+          "key": "evidence_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Actions Taken",
+          "label": "Replacement Requested",
+          "key": "replacement_requested",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Narrative",
+          "label": "Narrative",
+          "key": "narrative",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Supervisor",
+          "key": "supervisor",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Rank",
+          "key": "supervisor_rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Findings",
+          "key": "findings",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Supervisor Review",
+          "label": "Approved Replacement",
+          "key": "approved_replacement",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233326662,
+      "title": "Armory Sign-In / Sign-Out",
+      "record_type": "form",
+      "doc_no": "1ST-F-103",
+      "fields": [
+        {
+          "section": "Personnel",
+          "label": "Name",
+          "key": "name",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Personnel",
+          "label": "Rank",
+          "key": "rank",
+          "type": "rank",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Personnel",
+          "label": "Unit",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Personnel",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Equipment Log",
+          "label": "Equipment Transactions",
+          "key": "equipment_transactions",
+          "type": "table",
+          "options": [
+            "Time",
+            "Item",
+            "Serial/ID",
+            "Qty",
+            "Action",
+            "Condition",
+            "Signature"
+          ],
+          "required": true
+        },
+        {
+          "section": "Equipment Status",
+          "label": "Equipment Condition When Issued",
+          "key": "condition_issued",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Equipment Status",
+          "label": "Equipment Condition When Returned",
+          "key": "condition_returned",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Equipment Status",
+          "label": "Missing / Damaged Items",
+          "key": "missing_damaged",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Equipment Status",
+          "label": "Notes",
+          "key": "notes",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Armorer",
+          "label": "Armorer",
+          "key": "armorer",
+          "type": "officer",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Armorer",
+          "label": "Signature",
+          "key": "signature",
+          "type": "signature",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    },
+    {
+      "id": 1790233375113,
+      "title": "Vehicle Sign-Out Sheet",
+      "record_type": "form",
+      "doc_no": "1ST-F-104",
+      "fields": [
+        {
+          "section": "Vehicle Information",
+          "label": "Vehicle Number",
+          "key": "vehicle_number",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Vehicle Information",
+          "label": "Unit / Callsign",
+          "key": "unit",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Vehicle Information",
+          "label": "Vehicle Type",
+          "key": "vehicle_type",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Vehicle Information",
+          "label": "Plate",
+          "key": "plate",
+          "type": "text",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Vehicle Information",
+          "label": "Date",
+          "key": "date",
+          "type": "date",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Vehicle Sign-Out",
+          "label": "Sign-Out Entries",
+          "key": "sign_out_entries",
+          "type": "table",
+          "options": [
+            "Time Out",
+            "Trooper",
+            "Unit",
+            "Vehicle",
+            "Mileage",
+            "Fuel",
+            "Condition"
+          ],
+          "required": true
+        },
+        {
+          "section": "Vehicle Return",
+          "label": "Return Entries",
+          "key": "return_entries",
+          "type": "table",
+          "options": [
+            "Time In",
+            "Trooper",
+            "Mileage",
+            "Fuel",
+            "Damage",
+            "Equipment Missing"
+          ],
+          "required": true
+        },
+        {
+          "section": "Vehicle Inspection",
+          "label": "Exterior Damage",
+          "key": "exterior_damage",
+          "type": "choice",
+          "options": [
+            "None",
+            "Yes"
+          ],
+          "required": true
+        },
+        {
+          "section": "Vehicle Inspection",
+          "label": "Interior Damage",
+          "key": "interior_damage",
+          "type": "choice",
+          "options": [
+            "None",
+            "Yes"
+          ],
+          "required": true
+        },
+        {
+          "section": "Vehicle Inspection",
+          "label": "Emergency Equipment Working",
+          "key": "emergency_equipment",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Vehicle Inspection",
+          "label": "Radio Working",
+          "key": "radio_working",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Vehicle Inspection",
+          "label": "Lights / Sirens Working",
+          "key": "lights_sirens",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Vehicle Inspection",
+          "label": "Weapon Rack / Equipment Secure",
+          "key": "equipment_secure",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "section": "Vehicle Inspection",
+          "label": "Damage / Missing Equipment Description",
+          "key": "damage_description",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Review",
+          "label": "Trooper Signature",
+          "key": "trooper_signature",
+          "type": "signature",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Review",
+          "label": "Fleet / Command Review",
+          "key": "command_review",
+          "type": "textarea",
+          "options": [],
+          "required": true
+        },
+        {
+          "section": "Review",
+          "label": "Date",
+          "key": "review_date",
+          "type": "date",
+          "options": [],
+          "required": true
+        }
+      ],
+      "active": true,
+      "created_at": "2026-09-24T07:01:40.582Z"
+    }
+  ],
+  "officers": [
+    {
+      "id": 1790229887368,
+      "first_name": "Jimmy",
+      "last_name": "foster",
+      "rank": "",
+      "unit": "",
+      "division": "",
+      "discord_id": "",
+      "active": false,
+      "role": "standard"
+    },
+    {
+      "id": 1790230533022,
+      "first_name": "Jimmy",
+      "last_name": "Foster",
+      "rank": "Lieutenant Colonel",
+      "unit": "1K-02",
+      "division": "High Command",
+      "discord_id": "1046673576926912545",
+      "active": true,
+      "admin": true,
+      "role": "admin"
+    },
+    {
+      "id": 1790230954929,
+      "first_name": "Tim",
+      "last_name": "Bradford",
+      "rank": "Colonel",
+      "unit": "1K-01",
+      "division": "High Command",
+      "discord_id": "564460580363042816",
+      "active": true,
+      "admin": true,
+      "role": "admin"
+    },
+    {
+      "id": 1790231026640,
+      "first_name": "Jackson",
+      "last_name": "Wyatt",
+      "rank": "Lieutenant Colonel",
+      "unit": "1K-03",
+      "division": "High Command",
+      "discord_id": "1428112492520804383",
+      "active": true,
+      "admin": true,
+      "role": "admin"
+    },
+    {
+      "id": 1790231265303,
+      "first_name": "David",
+      "last_name": "English",
+      "rank": "Lieutenant Colonel",
+      "unit": "1K-04",
+      "division": "High Command",
+      "discord_id": "622817072702816257",
+      "active": true,
+      "admin": true,
+      "role": "admin"
+    },
+    {
+      "id": 1790232135091,
+      "first_name": "Tony",
+      "last_name": "Soprano",
+      "rank": "Lieutenant Colonel",
+      "unit": "1K-05",
+      "division": "High Command",
+      "discord_id": "873361637665562684",
+      "active": true,
+      "admin": true,
+      "role": "admin"
+    },
+    {
+      "id": 1790233372962,
+      "first_name": "Lenny",
+      "last_name": "Barnes",
+      "rank": "Major",
+      "unit": "1K-06",
+      "division": "High Command",
+      "discord_id": "878879404418281472",
+      "admin": true,
+      "active": true,
+      "role": "admin"
+    },
+    {
+      "id": 1790234050853,
+      "first_name": "Kitt",
+      "last_name": "Redd",
+      "rank": "Major",
+      "unit": "1K-07",
+      "division": "High Command",
+      "discord_id": "751454725479727155",
+      "admin": true,
+      "active": true,
+      "role": "admin"
+    },
+    {
+      "id": 1790234765866,
+      "first_name": "Paul",
+      "last_name": "Fletch",
+      "rank": "Major",
+      "unit": "1K-08",
+      "division": "High Command",
+      "discord_id": "651419664999776257",
+      "admin": true,
+      "active": true,
+      "role": "admin"
+    },
+    {
+      "id": 1790234854925,
+      "first_name": "Jay",
+      "last_name": "Slush",
+      "rank": "Lieutenant",
+      "unit": "1K-23",
+      "division": "Supervisor",
+      "discord_id": "1045780042476703834",
+      "admin": false,
+      "active": true,
+      "role": "supervisor"
+    }
+  ],
+  "records": [
+    {
+      "id": 1790234373982,
+      "filing_no": "0001",
+      "doc_no": "1ST-F-101",
+      "title": "SAST Daily Patrol Log",
+      "record_type": "form",
+      "template_id": 1,
+      "author": "Jimmy Foster",
+      "data": {
+        "rank": "Lieutenant Colonel",
+        "unit": "1K-02",
+        "division": "High Command",
+        "date": "9/24/26",
+        "shift": "1st",
+        "start_time": "0840",
+        "end_time": "0841",
+        "vehicle": "1K-02",
+        "linked": "",
+        "other_numbers": "",
+        "traffic_stops": "0",
+        "citations": "0",
+        "warnings": "0",
+        "arrests": "0",
+        "pursuits": "0",
+        "reports_completed": "0",
+        "backup_calls": "0",
+        "other_calls": "0",
+        "notes": "",
+        "supervisor": "Jimmy Foster",
+        "signature_font": "Segoe Print",
+        "supervisor_date": "",
+        "equipment": "",
+        "handoff": "",
+        "penal_codes": [],
+        "activity": [
+          {
+            "time": "",
+            "location": "1220",
+            "activity": "test",
+            "action": "tested again",
+            "outcome": "had a test"
+          }
+        ],
+        "filing_rank": "Lieutenant Colonel",
+        "filing_unit": "1K-02",
+        "filing_division": "High Command",
+        "supervisor_signed": true,
+        "supervisor_signature": "Jimmy Foster",
+        "supervisor_signature_font": "Segoe Script",
+        "supervisor_signed_at": "2026-09-24T07:57:09.164Z",
+        "supervisor_name": "Jimmy Foster"
+      },
+      "status": "Supervisor Signed",
+      "created_at": "2026-09-24T07:19:33.982Z",
+      "edit_log": [
+        {
+          "id": 1790235954346,
+          "timestamp": "2026-09-24T07:45:54.346Z",
+          "editor": "Local Administrator",
+          "role": "admin",
+          "changes": [
+            {
+              "field": "filing_rank",
+              "from": "",
+              "to": "Lieutenant Colonel"
+            },
+            {
+              "field": "filing_unit",
+              "from": "",
+              "to": "1K-02"
+            },
+            {
+              "field": "filing_division",
+              "from": "",
+              "to": "High Command"
+            }
+          ],
+          "action": "Record edit"
+        },
+        {
+          "id": 1790235969934,
+          "timestamp": "2026-09-24T07:46:09.934Z",
+          "editor": "Local Administrator",
+          "role": "admin",
+          "changes": [
+            {
+              "field": "supervisor_signature",
+              "from": "",
+              "to": "Supervisor"
+            }
+          ],
+          "action": "Supervisor signature / record edit"
+        },
+        {
+          "id": 1790236098007,
+          "timestamp": "2026-09-24T07:48:18.007Z",
+          "editor": "Local Administrator",
+          "role": "admin",
+          "changes": [
+            {
+              "field": "supervisor",
+              "from": "",
+              "to": "Supervisor"
+            }
+          ],
+          "action": "Record edit"
+        },
+        {
+          "id": 1790236233486,
+          "timestamp": "2026-09-24T07:50:33.486Z",
+          "editor": "Local Administrator",
+          "role": "admin",
+          "changes": [],
+          "action": "Record edit"
+        },
+        {
+          "id": 1790236269753,
+          "timestamp": "2026-09-24T07:51:09.753Z",
+          "editor": "Local Administrator",
+          "role": "admin",
+          "changes": [
+            {
+              "field": "supervisor_name",
+              "from": "",
+              "to": "Supervisor"
+            },
+            {
+              "field": "supervisor_signature",
+              "from": "",
+              "to": "Supervisor"
+            }
+          ],
+          "action": "Supervisor signature / record edit"
+        },
+        {
+          "id": 1790236415767,
+          "timestamp": "2026-09-24T07:53:35.767Z",
+          "editor": "Local Administrator",
+          "role": "admin",
+          "changes": [],
+          "action": "Record edit"
+        },
+        {
+          "id": 1790236629164,
+          "timestamp": "2026-09-24T07:57:09.164Z",
+          "editor": "Local Administrator",
+          "role": "admin",
+          "changes": [
+            {
+              "field": "supervisor",
+              "from": "Supervisor",
+              "to": "Jimmy Foster"
+            },
+            {
+              "field": "supervisor_signature",
+              "from": "Supervisor",
+              "to": "Jimmy Foster"
+            },
+            {
+              "field": "supervisor_signature_font",
+              "from": "Segoe Print",
+              "to": "Segoe Script"
+            },
+            {
+              "field": "supervisor_name",
+              "from": "Supervisor",
+              "to": "Jimmy Foster"
+            },
+            {
+              "field": "supervisor_signature",
+              "from": "",
+              "to": "Jimmy Foster"
+            }
+          ],
+          "action": "Supervisor signature / record edit"
+        }
+      ]
+    }
+  ],
+  "next_template_report": 111,
+  "next_template_form": 105,
+  "ranks": [
+    "Cadet",
+    "Trooper",
+    "Trooper First Class",
+    "Senior Trooper",
+    "Corporal",
+    "Sergeant",
+    "Lieutenant",
+    "Captain",
+    "Major",
+    "Lieutenant Colonel",
+    "Colonel"
+  ],
+  "admins": []
+}
