@@ -175,6 +175,7 @@ app.get('/auth/callback',async(req,res)=>{
 app.get('/auth/logout',(req,res)=>{clearCookie(res,'sast_session');res.redirect('/')});
 function escHtml(s){return String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 app.get('/api/me',(req,res)=>{const u=currentUser(req);res.json(u?{authenticated:true,local:!!u.local,admin:!!u.admin,supervisor:!!u.supervisor,role:u.role||'admin',username:u.username,officer:u.officer||null}:{authenticated:false,loginConfigured:!!process.env.DISCORD_CLIENT_ID})});
+app.get('/api/health',(req,res)=>res.json({ok:true,status:'healthy'}));
 app.use(express.static(path.join(root,'public')));
 app.get('/api/templates',requireAuth,(q,s)=>s.json(db.templates.filter(x=>x.active!==false)));
 app.get('/api/officers',requireAuth,(q,s)=>s.json(db.officers.filter(x=>x.active!==false)));
